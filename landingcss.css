@@ -1,0 +1,74 @@
+body {
+  background-color: #292725;
+  margin: 20px;
+  padding: 20px;
+}
+
+#head {
+  color: #E98333;
+  font-size: 2.8em;
+  margin-bottom: 2px;
+  margin-top: 4px;
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+}
+
+.tab {
+  tab-size: 19;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+a:link {
+  color: #E98333;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(33.33% - 20px);
+  padding: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: transform .5s;
+}
+
+.box h3 {
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+  color: white;
+  font-size: 1.5em;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.box img {
+  border: 3px solid #E98333;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.links {
+  text-decoration: none;
+}

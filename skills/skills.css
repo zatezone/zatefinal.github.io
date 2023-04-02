@@ -1,0 +1,140 @@
+body {
+  background-color: #292725;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Yatra One', cursive;
+  color: #E98333;
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+p {
+  font-family: 'Alef', sans-serif;
+  font-size: 1.05em;
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Alatsi', sans-serif;
+  color: #E98333;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #E98333;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#scroll-top-btn:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+#go-back-btn {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #E98333;
+  color: #fff;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#go-back-btn:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.box {
+  background-color: #E98333;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.box p {
+  margin-top: -10px;
+  text-align: center;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 1.3em;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.box a:hover+.box {
+  background-color: rgb(0, 0, 0);
+}
+
+.container2 {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box2 {
+  width: 20%;
+  height: auto;
+  margin: 5px;
+  object-fit: cover;
+  transition: transform .5s;
+  border: 2px solid #E98333;
+}
+
+.box2:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .box2 {
+    width: 100%;
+  }
+}
+
+.box2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.links {
+  text-decoration: none;
+}
+
+#child2 img {
+  margin-top: 93px;
+}
